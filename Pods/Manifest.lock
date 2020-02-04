@@ -1,0 +1,16 @@
+PODS:
+  - Phidget22Swift (1.5.4)
+
+DEPENDENCIES:
+  - Phidget22Swift
+
+SPEC REPOS:
+  trunk:
+    - Phidget22Swift
+
+SPEC CHECKSUMS:
+  Phidget22Swift: c59cbb3c492c0bfe576c51b47a8a32cfbd973107
+
+PODFILE CHECKSUM: 3e0a4e7a8bbad991a189d8f2e1df53d09b53bb0b
+
+COCOAPODS: 1.8.4

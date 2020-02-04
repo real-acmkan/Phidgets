@@ -1,0 +1,6 @@
+framework module Pods_phidget {
+  umbrella header "Pods-phidget-umbrella.h"
+
+  export *
+  module * { export * }
+}
