@@ -11,34 +11,50 @@ import Phidget22Swift
 
 class ViewController: UIViewController {
     
-    let redLed = DigitalOutput()
+    let leftMotors = DCMotor()
+    let rightMotors = DCMotor()
+    let sonar = DistanceSensor()
     
-    func attachHandler(sender:Phidget){
-        print("Red Light is attached")
-        do{
-            try redLed.setState(true)
-        } catch {
-        print(error)
-        }
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view
         do{
-            // enable discovery
-            try Net.enableServerDiscovery(serverType: .deviceRemote)
-            // setup phidget address
-            try redLed.setDeviceSerialNumber(528068)
-            try redLed.setHubPort(1)
-            try redLed.setIsHubPortDevice(true)
-            let _ = redLed.attach.addHandler(attachHandler)
-            // turn red LED on
-            try redLed.open()
+            //Connect to wireless rover
+            try Net.addServer(serverName: "", address: "192.168.100.1", port: 5661, flags: 0)
+            //Address
+            try leftMotors.setHubPort(5)
+            try leftMotors.setChannel(0)
+            try rightMotors.setHubPort(5)
+            try rightMotors.setChannel(1)
+            //Open
+            try leftMotors.open()
+            try rightMotors.open()
+            try sonar.setHubPort(2)
         } catch {
             print(error)
         }
     }
-
+    // MARK
+    @IBAction func moveRover(_ sender: Any, distance:UInt32) {
+    do  {
+            //Move forward at full speed
+            try leftMotors.setTargetVelocity(-1.0)
+            try rightMotors.setTargetVelocity(-1.0)
+            //Wait for 1 second
+            sleep(1)
+            //Stop motors
+            try leftMotors.setTargetVelocity(0.0)
+            try rightMotors.setTargetVelocity(0.0)
+            sleep(2)
+            try leftMotors.setTargetVelocity(1.0)
+            try rightMotors.setTargetVelocity(-1.0)
+            sleep(1)
+            try leftMotors.setTargetVelocity(0.0)
+            try rightMotors.setTargetVelocity(0.0)
+        }catch{
+            print(error)
+        }
+    }
 
 }
 
