@@ -155,7 +155,7 @@
 		85FE38664CD62F2F4D0679F386CDFEAD /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = src/Encoder.swift; sourceTree = "<group>"; };
 		86B493D387252C3C54AEF865074C74DB /* LightSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightSensor.swift; path = src/LightSensor.swift; sourceTree = "<group>"; };
 		86E8C058ED55CAC5C251D7B58E4D0E98 /* DistanceSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistanceSensor.swift; path = src/DistanceSensor.swift; sourceTree = "<group>"; };
-		89B7752F13F4FFFFA1115FA48BBF982B /* Phidget22Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Phidget22Swift.framework; path = Phidget22Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B7752F13F4FFFFA1115FA48BBF982B /* Phidget22Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Phidget22Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A36CBC9643A81A3DF4CAD30E7BF3BFF /* HumiditySensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HumiditySensor.swift; path = src/HumiditySensor.swift; sourceTree = "<group>"; };
 		8CB250B85425F652459D77D3EEA0EF3A /* VoltageOutputBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoltageOutputBase.swift; path = src/VoltageOutputBase.swift; sourceTree = "<group>"; };
 		8ED67A29108F90CB61EF084592E5A6F0 /* Pods-phidget-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-phidget-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		9AD765C771DF9DD6FC54641670225CD6 /* VoltageInputBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoltageInputBase.swift; path = src/VoltageInputBase.swift; sourceTree = "<group>"; };
 		9BC51BDC93EB8A6A21AFFF59DB84D184 /* ManagerBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerBase.swift; path = src/ManagerBase.swift; sourceTree = "<group>"; };
 		9BEA6C48A907A67227A364AEAAB01BBD /* Phidget22Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Phidget22Swift.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F4CF93E433DEB9883FFDF83213ED268 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = src/Dictionary.swift; sourceTree = "<group>"; };
 		A6AAF1E28F1B4F279BCE48C6938E6349 /* Spatial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spatial.swift; path = src/Spatial.swift; sourceTree = "<group>"; };
 		A6DCF3A81049F97D81D8A62FABDDA74C /* phidget22.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = phidget22.h; path = libphidget22/phidget22.h; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 		E9E65658603C4E496064C162B83345A5 /* LogBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogBase.swift; path = src/LogBase.swift; sourceTree = "<group>"; };
 		EBE06CA00B540F0586FAE2B3AD35C44B /* DigitalOutputBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigitalOutputBase.swift; path = src/DigitalOutputBase.swift; sourceTree = "<group>"; };
 		F04B0376B3DA2D22A8B057E92B1B8B2D /* Phidget22Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Phidget22Swift-dummy.m"; sourceTree = "<group>"; };
-		F2AC4D012F5B078DC754BC3140D50FEB /* Pods_phidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_phidget.framework; path = "Pods-phidget.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AC4D012F5B078DC754BC3140D50FEB /* Pods_phidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_phidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57AC97076CD1D9E2170B7B4BE434670 /* DigitalInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DigitalInput.swift; path = src/DigitalInput.swift; sourceTree = "<group>"; };
 		F966418DC087E55682A37AF36A76B158 /* DistanceSensorBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DistanceSensorBase.swift; path = src/DistanceSensorBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -331,7 +331,6 @@
 				E8FF8FB77C39A71FF4139D338BA992A4 /* Frameworks */,
 				A50E546F3287A152A29155E6A5344B19 /* Support Files */,
 			);
-			name = Phidget22Swift;
 			path = Phidget22Swift;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 5E47A33C17EA297B503107726125DA1B /* Products */;

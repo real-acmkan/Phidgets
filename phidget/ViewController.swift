@@ -40,6 +40,7 @@ class ViewController: UIViewController {
             //Move forward at full speed
             try leftMotors.setTargetVelocity(-1.0)
             try rightMotors.setTargetVelocity(-1.0)
+            //Because things are wired backwards use negative values
             //Wait for 1 second
             sleep(1)
             //Stop motors
