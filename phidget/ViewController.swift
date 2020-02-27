@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     let leftMotors = DCMotor()
     let rightMotors = DCMotor()
-    let sonar = DistanceSensor()
+    //let sonar = DistanceSensor()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,13 +29,13 @@ class ViewController: UIViewController {
             //Open
             try leftMotors.open()
             try rightMotors.open()
-            try sonar.setHubPort(2)
+            //try sonar.setHubPort(2)
         } catch {
             print(error)
         }
     }
     // MARK
-    @IBAction func moveRover(_ sender: Any, distance:UInt32) {
+    @IBAction func moveRover(_ sender: Any) {
     do  {
             //Move forward at full speed
             try leftMotors.setTargetVelocity(-1.0)
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
             //Stop motors
             try leftMotors.setTargetVelocity(0.0)
             try rightMotors.setTargetVelocity(0.0)
-            sleep(2)
+            sleep(1)
             try leftMotors.setTargetVelocity(1.0)
             try rightMotors.setTargetVelocity(-1.0)
             sleep(1)
